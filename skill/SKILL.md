@@ -51,6 +51,7 @@ Left alone: <what this session did not touch>
 | `docs/job-search/volume.md` | Seen, Screened, Applied, Rejected |
 | `docs/job-search/reports/` | Weekly reports. Procedure: [references/weekly-report.md](references/weekly-report.md) |
 | `docs/job-search/target-list.md` | Employers the owner wants checked. Extra boards, if any |
+| `docs/case-studies/<slug>/README.md` | Company note. Pattern: [references/company-note.md](references/company-note.md) |
 | [references/sources.md](references/sources.md) | Boards to check every week |
 
 The blanks to copy once are in [references/](references/). After the book exists, read the book, not the blanks.
@@ -94,7 +95,7 @@ Follow [references/rubric-wizard.md](references/rubric-wizard.md). Show [referen
 3. Score C1 to C7. Unknown pay is C1 = 3. Do not name the pass floor in a draft.
 4. Shortlist inside the volume cap. Include the contract shape the index allows.
 5. Draft applications inside the volume cap. Prefer the live application form. Obey the channel line.
-6. Propose pipeline rows. Do not claim anything was sent.
+6. Propose pipeline rows. Do not claim anything was sent. For each newly scored seat, create or update the company note in [references/company-note.md](references/company-note.md).
 7. Suggest at most two follow-ups, and only on a live thread. Do not bump a cold note. Do not bump an application the silent-apply line has already paused.
 8. Update the volume log when a new named seat was seen, screened, applied, or declined. Print this week and the running totals.
 
@@ -156,7 +157,7 @@ Do not scrape a board and do not submit an application.
 2. For a day rate, convert with the factor on the index before scoring C1.
 3. Score C1 to C7 with one line each.
 4. Verdict: `outreach`, `watch`, or `reject`, using the rubric.
-5. If the owner keeps a company note, update it. Do not create a sales pitch.
+5. Create or update the company note in [references/company-note.md](references/company-note.md). Do not write a sales pitch.
 6. A new named seat increments Seen and Screened.
 
 | Criterion | Score | Reasoning |
@@ -172,7 +173,7 @@ When the owner reports a send, an application, a reply, or silence:
 1. Confirm the date, the channel, the company, and what was sent.
 2. Update the pipeline status, the next action, and the date.
 3. Append a log line.
-4. Update the company note when the owner keeps one, with the summary they gave.
+4. Create or update the company note. Append the log with the summary the owner gave.
 5. Increment Applied or Rejected on the current Monday row when this was a first application or an employer decline. Recompute the totals.
 
 `Idea` · `Researching` · `Outreach drafted` · `Sent` · `Applied` · `Replied` · `In process` · `Follow-up due` · `Paused` · `Closed` · `Rejected fit`

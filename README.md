@@ -1,6 +1,6 @@
 # Job search pipeline
 
-A skill for Cursor and Claude Code. It runs a personal employment search. The agent drafts, scores, and keeps the log. The owner sends.
+A skill for Cursor and Claude Code. It runs a personal employment search. The agent drafts, scores, and keeps the log. The owner sends. This is the first skill in [agent-skills](https://github.com/iammikek/agent-skills).
 
 The procedure is public. The book is not. Applications, scores, cash figures, and contacts stay in a private workspace, in `docs/job-search/`. This repo ships the skill and the blank templates.
 
@@ -23,7 +23,7 @@ A weekly run is one Monday-to-Sunday log. Some weeks also have a mid-week pass, 
 ```
 skill/
   SKILL.md                 the procedure
-  references/              blank index, rubric, pipeline, volume log, weekly report, rubric wizard, search sources
+  references/              blank index, rubric, pipeline, volume log, weekly report, rubric wizard, search sources, company note
 scripts/
   check-public.sh          fails if a template marker is missing, or a mailbox address is present
 ```
@@ -62,7 +62,7 @@ Ask the agent to set up the rubric. It shows a fictional worked example first, t
 
 ## What a session does
 
-Boot the index. Do one thing: set up the rubric, a weekly pass, a triage of pasted matches, a score, a log of something already sent, a follow-up draft, or a weekly report. Then stop.
+Boot the index. Do one thing: set up the rubric, a weekly pass, a triage of pasted matches, a score, a log of something already sent, a follow-up draft, or a weekly report. A first score or a first logged send also writes a short company note. Then stop.
 
 The agent does not send email, a board form, or a message.
 

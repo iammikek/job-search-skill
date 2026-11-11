@@ -6,7 +6,7 @@ If the file exists, update it. Do not start a second file for the same company. 
 
 Add a row to `docs/case-studies/README.md` when the company is new.
 
-Do not invent pay, a date, or a message. Do not turn the note into a sales pitch. Do not look up the legal entity or filed accounts unless the owner asks.
+Do not invent pay, a date, or a message. Do not turn the note into a sales pitch. When the owner asks for the legal entity or the filed accounts, use the companies-house skill. Do not do that lookup as part of writing this note.
 
 ## Note
 
